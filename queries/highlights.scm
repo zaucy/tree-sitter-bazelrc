@@ -4,4 +4,4 @@
 (config_name) @function
 (comment) @comment
 (option) @property
-(import_path) @module
+(import_path) @string
