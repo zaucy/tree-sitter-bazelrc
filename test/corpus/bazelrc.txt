@@ -1,0 +1,44 @@
+===================
+Bazelrc
+===================
+
+command --flag=value
+build:example --something=value
+common:example --flag_name=10
+
+boolflag --noflag_name
+
+multiple:yo --flag --flag --noflag --yo=10
+
+try-import %workspace%/user.bazelrc
+import other.bazelrc
+
+---
+
+(source_file
+  (command
+    (command_name)
+    (option))
+  (command
+    (command_name)
+    (config_name)
+    (option))
+  (command
+    (command_name)
+    (config_name)
+    (option))
+  (command
+    (command_name)
+    (option))
+  (command
+    (command_name)
+    (config_name)
+    (option)
+    (option)
+    (option)
+    (option))
+  (try_import
+    (import_path))
+  (import
+    (import_path)))
+

@@ -1,0 +1,14 @@
+/node_modules
+
+# Generated files
+/bindings
+/target
+/src
+/Cargo.toml
+/Cargo.lock
+/binding.gyp
+*.lib
+*.exp
+*.obj
+*.so
+*.wasm
