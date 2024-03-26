@@ -3,7 +3,6 @@
 # Generated files
 /bindings
 /target
-/src
 /Cargo.toml
 /Cargo.lock
 /binding.gyp
